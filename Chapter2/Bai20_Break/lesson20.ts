@@ -25,3 +25,5 @@ switch (product.name) {
     default:
         discount = 100;
 }
+
+console.log(`There is a ${discount}% on ${product.name}.`);
